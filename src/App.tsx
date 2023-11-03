@@ -14,10 +14,10 @@ function App() {
         <div className="container">
           <Routes>
             <Route path="/resumewebsite" element={<Home />} />
-            <Route path="/resumewebsite/projects" element={<Projects />} />
-            <Route path="/resumewebsite/resume" element={<Resume />} />
-            <Route path="/resumewebsite/spotify" element={<SpotifyApp />} />
-            <Route path="/resumewebsite/extracirriculars" element={<Extracirriculars />} />
+            <Route path="/resumewebsite/projects" element={<Projects />}></Route>
+            <Route path="/resumewebsite/resume" element={<Resume />}></Route>
+            <Route path="/resumewebsite/spotify" element={<SpotifyApp />}></Route>
+            <Route path="/resumewebsite/extracirriculars" element={<Extracirriculars />}></Route>
           </Routes>
         </div>
       </>
